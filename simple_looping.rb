@@ -2,7 +2,14 @@
 
 def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+   x = 0
+   loop do
+     puts phrase
+     x += 1
+     if x >= 7
+       break
+     end
+   end
 end
 
 def times_iterator(number_of_times)
